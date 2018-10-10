@@ -1,0 +1,74 @@
+.fon{
+	background-image: url(neuschwanstein-castle-schwangau-bavaria-germany-zamok-nois-2.jpg);
+	background-size: cover;
+
+    height: 100vh;
+}
+
+.bg-light {
+    background-color: transparent !important;
+}
+
+.navbar{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.logo-davis{
+	padding-left: 0px;
+	padding-right: 100px;
+}
+
+.logo-close{
+	height: 25px;
+	width: 25px;
+}
+
+.nav-item{
+	text-transform: uppercase;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px
+}
+
+.dropdown-item{
+	text-transform: capitalize;
+}
+
+.nav-link {
+    color: #ebb85e;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 5px;
+    padding-top: 0px;
+}
+
+.navbar-collapse{
+    align-items: flex-start !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-weight: 700;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: orange;
+}
+
+.photo{
+	width: 100%;
+}
+
+.info{
+	z-index: -1;
+}
+
+.author-text{
+	color: orange;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	visibility: visible;
+	animation-name: slideInDown;
+}
