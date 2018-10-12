@@ -90,6 +90,10 @@
     text-transform: uppercase;
 }
 
+.name:hover{
+	color: white;
+}
+
 .photographer{
     color: black;
     text-align: center;
@@ -97,11 +101,19 @@
     font-size: 46px;
 }
 
+.photographer:hover{
+	color: orange;
+}
+
 .retoucher{
 	color: black;
     text-align: center;
     font-weight: 300;
     font-size: 46px;
+}
+
+.retoucher:hover{
+	color: white;
 }
 
 .based{
@@ -113,6 +125,10 @@
     font-weight: 600;
     font-size: 18px;
     margin-top: 25px;
+}
+
+.based:hover{
+	color: white;
 }
 
 
@@ -130,3 +146,4 @@
 	opacity: 1;
 	transform: translate3d(0, 0, 0) translateY(-50%);
 }
+
